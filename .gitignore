@@ -3,4 +3,4 @@ data/emission data/UNFCCC common reporting tables/
 **/.~lock*#
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+

@@ -26,9 +26,9 @@ version = "eu27"
 #version = "eu27_ch_no_without_mt_si_lv_cy" # with switzerland and norway, without malta, slovenia, latvia, cyprus
 
 
-filepath = os.path.abspath(f"data/figaro io/formatted IO/figaro_year{year}.nc")
+filepath = os.path.abspath(f"data/figaro io/formatted io/figaro_year{year}.nc")
 grouping_file_path = os.path.abspath(f"data/figaro io/figaro{edition}ed_grouping_{version}.yaml")
-output_filepath = os.path.abspath(f"data/figaro io/formatted IO/figaro_year{year}_aggregated_{version}.nc")
+output_filepath = os.path.abspath(f"data/figaro io/formatted io/figaro_year{year}_aggregated_{version}.nc")
 
 if not os.path.isfile(filepath): 
     figaro = extract_MRIO(source= "data/figaro io/raw io/",
@@ -59,9 +59,10 @@ multi_scale_mapping (
     entities = ["CO2", "CH4", "N2O"], 
     kyoto_basket= False,
     crf_name = "CRT_emissions_processed",
-    hist_name = "Guetschow_et_al_2025a-PRIMAP-hist_v2.7_final_22-Aug-2025",
+    hist_name = "primap_hist_processed",
     categories_output =  "all"
     )
+
 
 save_to_nc(figaro, output_filepath)
 print("Aggregation complete. Data saved to netCD.")
