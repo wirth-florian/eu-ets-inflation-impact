@@ -1,0 +1,6 @@
+# This yaml file holds the groupings for the figaro table (25d edition). The following countries are grouped in the rest of the world group. "NO" is in quotation marks because yaml mixes this up with the boolean false otherwise.
+
+countries:
+  ROW: [FIGW1, AL, AR, AU, BR, CA, CN, GB, ID, IN, JP, KR, ME, MK, MX, RS, RU, SA, TR, US, ZA]
+
+

@@ -1,0 +1,6 @@
+# This yaml file holds the groupings for the figaro table (25d edition). The following countries are grouped in the rest of the world group.
+
+countries:
+  ROW: ["FIGW1", "AL", "AR", "AU", "BR", "CA", "CH", "CN", "GB","ID", "IN", "JP", "KR", "ME", "MK", "MX", "NO", "RS", "RU", "SA", "TR", "US", "ZA"]
+
+
