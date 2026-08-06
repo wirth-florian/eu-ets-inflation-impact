@@ -48,16 +48,18 @@ figaro.aggregate(on = "countries")
 multi_scale_mapping (
     mrio = figaro,
     mapping_file = "mapping_crf_Figaro",
-    year = 2022, 
+    year = 2024, 
+    crf_version = "2026",
+    hist_version = "2025",
     emissions_year= "same" ,
     mapping_extension= ".csv",
-    table = "figaro2022",
-    primap_path= "data/Emission data", 
-    mapping_path= "data/Emission data",
+    table = "figaro2024",
+    primap_path= "data/emission data", 
+    mapping_path= "data/emission data",
     entities = ["CO2", "CH4", "N2O"], 
     kyoto_basket= False,
     crf_name = "CRT_emissions_processed",
-    hist_name = "primap_hist_processed",
+    hist_name = "Guetschow_et_al_2025a-PRIMAP-hist_v2.7_final_22-Aug-2025",
     categories_output =  "all"
     )
 
