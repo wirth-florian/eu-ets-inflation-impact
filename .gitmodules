@@ -1,0 +1,3 @@
+[submodule "mrio_toolbox"]
+	path = mrio_toolbox
+	url = https://codeberg.org/flojawi/mrio_toolbox
