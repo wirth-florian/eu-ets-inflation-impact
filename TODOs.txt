@@ -1,5 +1,6 @@
 - Replicate the old paper with new tables and emission data (IN PROCESS)
-- Confirm that you get the same results without LU decomposition but instead with simple matrix algebra (can be done also with old data)
-- Check whether we really need supply tables
+- Confirm that you get the same results without LU decomposition but instead with simple matrix algebra
+=> use old data to test the procedure
+
 - Download household expenditure survey items
 - Create requirements.txt
