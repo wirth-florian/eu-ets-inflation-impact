@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module=r"xarray\.namedar
 
 logging.basicConfig(level=logging.INFO)
 
-year = 2022
+year = 2024
 edition = 26
 #version = "eu27" 
 #version = "eu27_ch_no" # all eu27 countries with switzerland and norway
