@@ -21,16 +21,13 @@ logging.basicConfig(level=logging.INFO)
 
 year = 2024
 edition = 26
-#version = "eu27" 
-#version = "eu27_ch_no" # all eu27 countries with switzerland and norway
-version = "eu27_without_mt_si_lv_cy" # without malta, slovenia, latvia, cyprus
-
+version = "eu27" 
 
 filepath = os.path.abspath(f"data/figaro io/formatted io/figaro_year{year}.nc")
 grouping_file_path = os.path.abspath(f"data/figaro io/figaro{edition}ed_grouping_{version}.yaml")
 output_filepath = os.path.abspath(f"data/figaro io/formatted io/figaro_year{year}_aggregated_{version}.nc")
 
-if not os.path.isfile(filepath): 
+if not os.path.isfile(filepath):
     figaro = extract_MRIO(source= "data/figaro io/raw io/",
                           table = "figaro",
                           year = year,
