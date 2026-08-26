@@ -2,4 +2,3 @@ Create a file (excel is also okay and can be read in), where you have a carbon p
 
 Delete uneccessary files here. E.g. we don't need sectoral categorization into ETS1 / ETS2 since we base the emission coverage on emission categories which we have for each sector. We only need emission categories covered by ETS1/ETS2, which we should already have in the emission data folder (but not sure if they are 100 percent accurate).
 
-Hello
