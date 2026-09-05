@@ -1,3 +1,6 @@
+TODO: Re-write this readme
+
+
 This folder contains four sub-folders:
 
 - 'crf_2026' holds the processed dataframe of national emissions in the common reporting framework in the file 'CRT_emissions_processed.csv' These emissions are sourced from the 2026 release of the UNFCCC common reporting tables (CRTs). The format of the spreadsheet resembles that of PRIMAP-crf but it contains more recent years. We use this dataset in the multi-scale-mapping algorithm to map emissions disaggregated into IPCC categories to the different NACE sectors.
