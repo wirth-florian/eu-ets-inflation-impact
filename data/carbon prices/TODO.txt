@@ -1,4 +1,1 @@
-Create a file (excel is also okay and can be read in), where you have a carbon price change for each country for ets1/ets2/both and for different scenarios (e.g. low carbon prices, high carbon prices, necessary carbon prices for the fit for 55 targets etc).
-
-Delete uneccessary files here. E.g. we don't need sectoral categorization into ETS1 / ETS2 since we base the emission coverage on emission categories which we have for each sector. We only need emission categories covered by ETS1/ETS2, which we should already have in the emission data folder (but not sure if they are 100 percent accurate).
-
+TODO: clean this folder, remove stuff that is not needed anymore

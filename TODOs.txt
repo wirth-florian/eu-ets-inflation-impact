@@ -1,6 +1,11 @@
-- Replicate the old paper with new tables and emission data (IN PROCESS)
-- Calculate indirect emissions with household income decomposition. 
-Potentially, we can use some lower or upper bounds to compare the inequality of direct emissions too and thus compare the whole measure to the CPI?
+- Model Social climate fund redistribution: Is it enough to counterbalance HICP increase? (look at "real wages")
+- Use the correct carbon prices
 
-- Download household expenditure survey items
-- Create requirements.txt
+- Potentially: Model within country inequality effects. We can assume though that countries try to target the SFC ressources to more vulnerable groups. 
+
+
+
+- Make presentation
+    - discuss data issues and harmonization as a gap in the literature? -> We could also not resolve this fully!
+    - Why do our results depart from the literature? (Our effects are smaller)
+    - Discuss political side of things + endogeneity
